@@ -1,3 +1,23 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    background-color: #dddddd;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.image-grid img {
+    width: 300px;
+    height: 450px;
 }
