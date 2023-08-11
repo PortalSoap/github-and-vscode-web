@@ -1,5 +1,4 @@
 * {
-    margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto';
     background-color: #dddddd;
@@ -8,11 +7,12 @@
 
 h1 {
     font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .image-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     margin: auto;
 }
